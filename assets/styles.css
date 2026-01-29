@@ -34,7 +34,7 @@ ul.nav li a:active {
   background-color: #ddab51;
 }
 
-ul.nav li.dropdown {
+li.dropdown {
   display: inline-block;
 }
 
