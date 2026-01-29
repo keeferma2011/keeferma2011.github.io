@@ -18,7 +18,7 @@ ul.nav li.right {
   float: right;
 }
 
-ul.nav li a, .dropbtn {
+ul li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
