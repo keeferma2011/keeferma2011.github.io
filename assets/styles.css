@@ -30,7 +30,7 @@ ul.nav li a:hover, .dropdown:hover .dropbtn {
   background-color: #ddab51;
 }
 
-ul.nav li a:active {
+ul.nav li a.active {
   background-color: #ddab51;
 }
 
