@@ -1,5 +1,5 @@
 body {
-  font-family: Calibri
+  font-family: Calibri;
 }
 
 ul.nav {
@@ -18,18 +18,47 @@ ul.nav li.right {
   float: right;
 }
 
-ul.nav li a {
-  display: block;
+ul.nav li a, .dropbtn {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
 }
 
-ul.nav li a:hover {
+ul.nav li a:hover, .dropdown:hover .dropbtn {
   background-color: #ddab51;
 }
 
 ul.nav li a:active {
   background-color: #ddab51;
+}
+
+ul.nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0057b0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
