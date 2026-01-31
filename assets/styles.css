@@ -59,6 +59,10 @@ li.dropdown {
   background-color: #f1f1f1;
 }
 
+img.site-image {
+  border: 5px solid #555;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
