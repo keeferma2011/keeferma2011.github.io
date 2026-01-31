@@ -66,3 +66,7 @@ li.dropdown {
 img.site-image {
   border: 10px solid #555;
 }
+
+float-left {
+  float: left;
+}
